@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_journal"
+            android:icon="@mipmap/ic_book_white_24dp"
+            android:title="Tabs"/>
+        <item
+            android:id="@+id/nav_nutrition"
+            android:icon="@mipmap/ic_restaurant_menu_white_24dp"
+            android:title="AppBar"/>
+        <item
+            android:id="@+id/nav_weight"
+            android:icon="@mipmap/ic_accessibility_white_24dp"
+            android:title="Weight"/>
+    </group>
+    <group android:id="@+id/my_id">
+        <item
+            android:id="@+id/nav_settings"
+            android:icon="@mipmap/ic_settings"
+            android:title="Settings"/>
+    </group>
+
+
+</menu>
